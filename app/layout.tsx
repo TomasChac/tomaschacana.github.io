@@ -30,11 +30,13 @@ export const metadata: Metadata = {
     description: "Portfolio profesional - Disponible para prácticas",
   },
   robots: "index, follow",
-  viewport: {
-    width: "device-width",
-    initialScale: 1.0,
-    maximumScale: 5.0,
-  },
+};
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1.0,
+  maximumScale: 5.0,
+  userScalable: true,
 };
 
 export default function RootLayout({
